@@ -19,6 +19,11 @@ func main() {
 	//	Parse the command line for flags:
 	flag.Parse()
 
+	//	If we don't have a file, get out:
+	if *torrentPath == "" {
+		log.Fatal("[ERROR] No file specified")
+	}
+
 	//	Query to get all torrents
 	torrents := []Torrent{}
 	res, err := http.Get(*baseURL + "/query/torrents")
