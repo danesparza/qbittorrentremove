@@ -22,8 +22,8 @@ func main() {
 
 	hashToLookFor := *torrentHash
 
-	//	If we don't have a file, get out:
-	if *torrentPath == "" || hashToLookFor == "" {
+	//	If we don't have a file and we don't have a hash, get out:
+	if *torrentPath == "" && hashToLookFor == "" {
 		log.Fatal("[ERROR] No file or hash specified")
 	}
 
