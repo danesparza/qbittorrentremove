@@ -1,4 +1,4 @@
-# qbittorrentremove [![CircleCI](https://circleci.com/gh/danesparza/qbittorrentremove.svg?style=svg)](https://circleci.com/gh/danesparza/qbittorrentremove)
+# qbittorrentremove [![CircleCI](https://circleci.com/gh/danesparza/qbittorrentremove.svg?style=shield)](https://circleci.com/gh/danesparza/qbittorrentremove)
 Simple utility to remove a torrent from qbittorrent based on the downloaded filename
 
 ## Quickstart
